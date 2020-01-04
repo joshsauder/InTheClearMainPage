@@ -469,17 +469,17 @@ function Layout({ children }) {
             {/* CTA block */}
             <section className="container mx-auto text-center py-6 mb-12">
 
-              <h1 className="w-full my-2 text-5xl font-bold leading-tight text-center text-white">Call to Action</h1>
+              <h1 className="w-full my-2 text-5xl font-bold leading-tight text-center text-white">Ready to Travel Stress Free?</h1>
               <div className="w-full mb-4">	
                 <div className="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
               </div>
 
-              <h3 className="my-4 text-3xl leading-tight">Read more about GatsbyJS</h3>	
+              <h3 className="my-4 text-3xl leading-tight">Download In The Clear!</h3>	
 
-              <form action={data.site.siteMetadata.blog}>
-                <button type="submit"
-                        className="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg">Action!</button>
-              </form>
+              <div className="row">
+                <a type="submit" target="_blank" href={data.site.siteMetadata.github} className="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg">iOS App</a>
+                <a type="submit" target="_blank" href={data.site.siteMetadata.github} className="ml-2 mx-auto hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg">Web App</a>
+              </div>
 
             </section>
 
