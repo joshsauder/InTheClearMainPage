@@ -1,8 +1,8 @@
 {
-  "name": "@oddstronaut/gatsby-starter-tailwind",
-  "description": "Gatsby starter styled with Tailwind",
+  "name": "in-the-clear-main-page",
+  "description": "Main Page for In The Clear",
   "version": "3.0.25",
-  "author": "Taylor Bryant <taylor@bryant.io>",
+  "author": "Josh Sauder",
   "dependencies": {
     "ftp-deploy": "^2.3.3",
     "gatsby": "^2.18.17",

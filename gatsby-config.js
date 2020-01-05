@@ -3,11 +3,11 @@ module.exports = {
     title: `In The Clear`,
     description: `GatsbyJS Starter styled with Tailwind CSS`,
     author: `Josh Sauder`,
-    github: `https://github.com/app-generator/gatsbyjs-starter-tailwindplay`,
-    blog: `https://blog.appseed.us/tag/gatsbyjs`,
-    product: `https://appseed.us/apps/gatsbyjs`,
-    docs: `https://docs.appseed.us/apps/gatsbyjs`
-
+    app: `https://itunes.apple.com/us/app/in-the-clear/id1458058092?ls=1&#38;mt=8`,
+    website: "",
+    linkedin: 'https://www.linkedin.com/in/josh-sauder-5231a1106',
+    github: 'https://github.com/joshsauder',
+    contact: 'mailto:intheclearapp@gmail.com'
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

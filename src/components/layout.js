@@ -2,8 +2,9 @@ import React from "react";
 import PropTypes from "prop-types";
 import { StaticQuery, graphql } from "gatsby";
 
+import Footer from "./footer"
+
 import InTheClear from "../images/InTheClear.png";
-import InTheClearFill from "../images/InTheClearFill.png"
 import DestinationsSvg from "../images/undraw_destinations_fpv7.svg"
 import MapSvg from "../images/undraw_destinations_fpv7.svg"
 import ListSvg from "../images/undraw_note_list_etto.svg"
@@ -17,8 +18,11 @@ function Layout({ children }) {
           site {
             siteMetadata {
               title,
+              app,
+              website,
               github,
-              blog
+              linkedin,
+              contact
             }
           }
         }
@@ -41,8 +45,8 @@ function Layout({ children }) {
                   </p>
 
                   <div className="row">
-                      <a type="submit" target="_blank" href={data.site.siteMetadata.github} className="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg">iOS App</a>
-                      <a type="submit" target="_blank" href={data.site.siteMetadata.github} className="ml-2 mx-auto hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg">Web App</a>
+                      <a type="submit" target="_blank" href={data.site.siteMetadata.app} className="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg">iOS App</a>
+                      <a type="submit" target="_blank" href={data.site.siteMetadata.website} className="ml-2 mx-auto hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg">Web App</a>
                   </div>
 
                 </div>
@@ -275,64 +279,13 @@ function Layout({ children }) {
               <h3 className="my-4 text-3xl leading-tight">Download In The Clear!</h3>	
 
               <div className="row">
-                <a type="submit" target="_blank" href={data.site.siteMetadata.github} className="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg">iOS App</a>
-                <a type="submit" target="_blank" href={data.site.siteMetadata.github} className="ml-2 mx-auto hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg">Web App</a>
+                <a type="submit" target="_blank" href={data.site.siteMetadata.app} className="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg">iOS App</a>
+                <a type="submit" target="_blank" href={data.site.siteMetadata.website} className="ml-2 mx-auto hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg">Web App</a>
               </div>
 
             </section>
-
             {/* Footer */}
-            <footer className="bg-white">
-              <div className="container mx-auto  px-8">
-
-                    <div className="w-full flex flex-col md:flex-row py-6">
-                    
-                  <div className="flex-1 mb-6">
-                  
-                    <a className="text-orange-600 no-underline hover:no-underline font-bold text-2xl lg:text-4xl"  href="#"> 
-                      <img className="w-full md:w-4/5 z-50" src={InTheClearFill} />
-                    </a>
-                  </div>
-                
-                
-                        <div className="flex-1">
-                            <p className="uppercase text-gray-500 md:mb-6">Links</p>
-                            <ul className="list-reset mb-6">
-                                <li className="mt-2 inline-block mr-2 md:block md:mr-0">
-                                    <a href="#" className="no-underline hover:underline text-gray-800 hover:text-orange-500">iOS App</a>
-                                </li>
-                                <li className="mt-2 inline-block mr-2 md:block md:mr-0">
-                                    <a href="#" className="no-underline hover:underline text-gray-800 hover:text-orange-500">Web App</a>
-                                </li>
-                                <li className="mt-2 inline-block mr-2 md:block md:mr-0">
-                                    <a href="#" className="no-underline hover:underline text-gray-800 hover:text-orange-500">Contact</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div className="flex-1">
-                            <p className="uppercase text-gray-500 md:mb-6">Legal</p>
-                            <ul className="list-reset mb-6">
-                                <li className="mt-2 inline-block mr-2 md:block md:mr-0">
-                                    <a href="#" className="no-underline hover:underline text-gray-800 hover:text-orange-500">Privacy</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div className="flex-1">
-                            <p className="uppercase text-gray-500 md:mb-6">Connect</p>
-                            <ul className="list-reset mb-6">
-                                <li className="mt-2 inline-block mr-2 md:block md:mr-0">
-                                    <a href="#" className="no-underline hover:underline text-gray-800 hover:text-orange-500">LinkedIn</a>
-                                </li>
-                                <li className="mt-2 inline-block mr-2 md:block md:mr-0">
-                                    <a href="#" className="no-underline hover:underline text-gray-800 hover:text-orange-500">Github</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-            </footer>
-
+            <Footer data={data.site.siteMetadata} /> 
         </body>
       )}
     />
