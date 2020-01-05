@@ -2,11 +2,12 @@ import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
+import {graphql} from "gatsby";
 
-function IndexPage({data}) {
+function IndexPage() {
   return (
 
-    <Layout images={data.FeatureImgs}>
+    <Layout>
     
       <SEO
         title="GatsbyJS Tailwind Starter"
@@ -18,18 +19,3 @@ function IndexPage({data}) {
 }
 
 export default IndexPage;
-
-export const query = graphql`
-  query allImgsQuery{
-    FeatureImgs: allFile(
-      filter: {relativePath: { regex: "/undraw.*.svg/"}}
-    ) {
-      edges {
-        node {
-          relativePath
-          name
-          publicURL
-        }
-      }
-    } 
-  }`

@@ -81,6 +81,17 @@ function Layout({ children, images }) {
               contact
             }
           }
+          allFile(
+            filter: {relativePath: { regex: "/undraw.*.svg/"}}
+          ) {
+            edges {
+              node {
+                relativePath
+                name
+                publicURL
+              }
+            }
+          } 
         }
       `}
       render={data => (
@@ -139,7 +150,7 @@ function Layout({ children, images }) {
                 </div>
 
                 {FeatureData.map((feature, index) => {
-                  const image = images.edges.find((image) => {
+                  const image = data.allFile.edges.find((image) => {
                     return image.node.relativePath === feature.image
                   })
 
