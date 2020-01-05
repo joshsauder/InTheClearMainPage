@@ -18,10 +18,7 @@ function Footer(props) {
                         <p className="uppercase text-gray-500 md:mb-6">Links</p>
                         <ul className="list-reset mb-6">
                             <li className="mt-2 inline-block mr-2 md:block md:mr-0">
-                                <a href={props.data.app} className="no-underline hover:underline text-gray-800 hover:text-orange-500">iOS App</a>
-                            </li>
-                            <li className="mt-2 inline-block mr-2 md:block md:mr-0">
-                                <a href={props.data.web} className="no-underline hover:underline text-gray-800 hover:text-orange-500">Web App</a>
+                                <a href={props.data.app} target="_blank" className="no-underline hover:underline text-gray-800 hover:text-orange-500">iOS App</a>
                             </li>
                             <li className="mt-2 inline-block mr-2 md:block md:mr-0">
                                 <a href={props.data.contact} className="no-underline hover:underline text-gray-800 hover:text-orange-500">Contact</a>
@@ -40,10 +37,10 @@ function Footer(props) {
                         <p className="uppercase text-gray-500 md:mb-6">Connect</p>
                         <ul className="list-reset mb-6">
                             <li className="mt-2 inline-block mr-2 md:block md:mr-0">
-                                <a href={props.data.linkedin} className="no-underline hover:underline text-gray-800 hover:text-orange-500">LinkedIn</a>
+                                <a href={props.data.linkedin} target="_blank" className="no-underline hover:underline text-gray-800 hover:text-orange-500">LinkedIn</a>
                             </li>
                             <li className="mt-2 inline-block mr-2 md:block md:mr-0">
-                                <a href={props.data.github} className="no-underline hover:underline text-gray-800 hover:text-orange-500">Github</a>
+                                <a href={props.data.github} target="_blank" className="no-underline hover:underline text-gray-800 hover:text-orange-500">Github</a>
                             </li>
                         </ul>
                     </div>

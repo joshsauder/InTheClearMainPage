@@ -93,15 +93,15 @@ function Layout({ children, images }) {
 
               <div className="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
 
-                <div className="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
+                <div className="flex flex-col w-full md:w-2/5 justify-center text-center md:text-left">
                   <h1 className="my-4 text-5xl font-bold leading-tight">In The Clear</h1>
                   <p className="leading-normal text-2xl mb-8">
                     {data.site.siteMetadata.title} - an app designed to alleviate the pain of unexpectadly having to travel through unfavorable weather conditions
                   </p>
 
                   <div className="row">
-                      <a type="submit" target="_blank" href={data.site.siteMetadata.app} className="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg">iOS App</a>
-                      <a type="submit" target="_blank" href={data.site.siteMetadata.website} className="ml-2 mx-auto hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg">Web App</a>
+                      <a type="submit" target="_blank" href={data.site.siteMetadata.app} className="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 md:my-3 py-4 px-8 shadow-lg">iOS App</a>
+                      <a type="submit" target="_blank" href={data.site.siteMetadata.website} className="lg:ml-2 mx-auto bg-white text-gray-800 font-bold rounded-full my-6 md:my-3 py-4 px-8 shadow-lg opacity-50 cursor-not-allowed">Web App - Coming Soon!</a>
                   </div>
 
                 </div>
@@ -177,7 +177,7 @@ function Layout({ children, images }) {
                 </div>
                 
                 <div className="flex flex-col sm:flex-row justify-center pt-12 my-12 sm:my-4">               
-                  <div className="flex flex-col w-5/6 lg:w-1/3 mr-4 rounded-lg bg-white mt-4 sm:-mt-6 shadow-lg z-10">
+                  <div className="flex flex-col md:w-5/6 lg:w-1/3 lg:mr-4 md:mr-4 rounded-lg bg-white mt-4 sm:-mt-6 shadow-lg z-10">
                     <div className="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
                       <div className="w-full p-8 text-3xl font-bold text-center">iOS App + Web</div>
                       <div className="h-1 w-full gradient my-0 py-0 rounded-t"></div>
@@ -192,7 +192,7 @@ function Layout({ children, images }) {
                     </div>
                   </div>
                   
-                  <div className="flex flex-col w-5/6 lg:w-1/3 rounded-lg ml-4 bg-white mt-4 sm:-mt-6 shadow-lg z-10">
+                  <div className="flex flex-col md:w-5/6 lg:w-1/3 rounded-lg lg:ml-4 md:ml-4 bg-white mt-4 sm:-mt-6 shadow-lg z-10">
                     <div className="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
                       <div className="w-full p-8 text-3xl font-bold text-center">Web</div>
                       <div className="h-1 w-full gradient my-0 py-0 rounded-t"></div>
@@ -242,7 +242,7 @@ function Layout({ children, images }) {
 
               <div className="row">
                 <a type="submit" target="_blank" href={data.site.siteMetadata.app} className="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg">iOS App</a>
-                <a type="submit" target="_blank" href={data.site.siteMetadata.website} className="ml-2 mx-auto hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg">Web App</a>
+                <a type="submit" target="_blank" href={data.site.siteMetadata.website} className="ml-2 mx-auto bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg opacity-50 cursor-not-allowed">Web App - Coming Soon!</a>
               </div>
 
             </section>
