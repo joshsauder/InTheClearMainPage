@@ -1,0 +1,29 @@
+---
+title: Privacy Policy
+date: Jan 4th, 2020
+---
+
+**In The Clear respects your privacy and ensures that information about you remains private.**
+
+With that being said, we may collect information from and about you, but only the information required to provide the service in question. Your data is not sold to any third party companies or advertisers. 
+
+#### Information we are collecting at this time includes:
+**Authentication**
+1. Email Address
+2. Your Name
+
+**Trip History Feature - Coming Soon**
+1. ID linking your Account
+2. Trip Start and End Location
+3. Trip Stops
+4. Date
+
+Your information may be shared with third parties who perform services on our behalf. An example of this is the route you input into In The Clear. Google provides our directions and mapping services, and will use the start and end location to input to give you the best route possible.
+
+We reserve the right to disclose your information as required by law, when we believe disclosure is necessary to comply with a regulatory requirement, judicial proceeding, court order, or legal process served on us, or to protect the safety, rights, or property of our users, the public or In The Clear
+
+In The Clear is not responsible for the third party services that we use.
+
+In The Clear may, in its sole discretion, change this Privacy Policy from time to time, any and all changes will be reflected here, and the modification date will be posted at the top of this Privacy Policy, so please review it periodically. If any major changes are made to this policy, we will notify you (most likely via push notification) of this.
+
+If you have any suggestions, feedback or requests, please contact us by e-mailing me at InTheClearApp@gmail.com

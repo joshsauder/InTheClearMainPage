@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `In The Clear`,
     description: `GatsbyJS Starter styled with Tailwind CSS`,
-    author: `@Sm0keDev`,
+    author: `Josh Sauder`,
     github: `https://github.com/app-generator/gatsbyjs-starter-tailwindplay`,
     blog: `https://blog.appseed.us/tag/gatsbyjs`,
     product: `https://appseed.us/apps/gatsbyjs`,
@@ -30,6 +30,14 @@ module.exports = {
         tailwind: true,
         purgeOnly: ["src/css/style.css", "src/css/global.css"]
       }
-    }
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `data`,
+        path: `${__dirname}/src/data`,
+      },
+    },
+    `gatsby-transformer-remark`,
   ]
 };
