@@ -6,9 +6,40 @@ import Footer from "./footer"
 
 import InTheClear from "../images/InTheClear.png";
 import DestinationsSvg from "../images/undraw_destinations_fpv7.svg"
-import MapSvg from "../images/undraw_destinations_fpv7.svg"
+import MapSvg from "../images/undraw_Map_dark_k9pw.svg"
 import ListSvg from "../images/undraw_note_list_etto.svg"
 import SignSvg from "../images/undraw_road_sign_mfpo.svg"
+import FeatureData from "../data/features.json"
+
+function Features(props){
+  return (
+    <div className="flex flex-wrap flex-col-reverse sm:flex-row">	
+        {props.children}
+    </div>
+  )
+}
+
+function FeatureImage(props){
+  return (
+    <div className="w-full sm:w-1/2 p-6 mt-6">
+        <img className="w-full sm:h-64 mx-auto" src={props.image}/>
+    </div>
+  )
+}
+
+function FeatureContent(props){
+  return (
+    <div className="w-full sm:w-1/2 p-6 mt-6">
+        <div className="align-middle">
+            <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">{props.data.title}</h3>
+            <p className="text-gray-600 mb-8">{props.data.description}<br /><br />
+
+            Images from: <a className="text-orange-500 underline" href="https://undraw.co/">undraw.co</a></p>
+
+        </div>
+    </div>
+  )
+}
 
 function Layout({ children }) {
   return (
@@ -81,65 +112,24 @@ function Layout({ children }) {
                 <div className="w-full mb-4">	
                   <div className="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
                 </div>
+                       
+                <Features>
+                  <FeatureContent data={FeatureData[0]} />
+                  <FeatureImage image ={SignSvg} />
+                </Features>
+                <Features>
+                  <FeatureImage image ={DestinationsSvg} />
+                  <FeatureContent data={FeatureData[0]} />
+                </Features> 
+                <Features>
+                  <FeatureContent data={FeatureData[2]} />
+                  <FeatureImage image ={ListSvg} />
+                </Features>
+                <Features>
+                  <FeatureImage image ={SignSvg} />
+                  <FeatureContent data={FeatureData[3]} />
+                </Features>       
               
-                <div className="flex flex-wrap">
-                  <div className="w-5/6 sm:w-1/2 p-6">
-                    <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">Prepare Better</h3>
-                    <p className="text-gray-600 mb-8">Driving through snow storms or thunderstorms can be stressful. In The Clear uses Dark Sky's dead accurate weather service so you can be certain the weather conditions you see, will be the conditions you can expect during your travels<br /><br />
-                    
-                    Images from: <a className="text-orange-500 underline" href="https://undraw.co/">undraw.co</a></p>
-                    
-                  </div>
-                  <div className="w-full sm:w-1/2 p-6">
-                    <img className="w-full sm:h-64 mx-auto" xmlns="http://www.w3.org/2000/svg" src={SignSvg} />
-                  </div>
-                </div>
-                
-                
-                <div className="flex flex-wrap flex-col-reverse sm:flex-row">	
-                  <div className="w-full sm:w-1/2 p-6 mt-6">
-                    <img className="w-5/6 sm:h-64 mx-auto" xmlns="http://www.w3.org/2000/svg" src={DestinationsSvg} />
-                  </div>
-                  <div className="w-full sm:w-1/2 p-6 mt-6">
-                    <div className="align-middle">
-                      <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">Select Trip Stops</h3>
-                      <p className="text-gray-600 mb-8">You are able to select your own trip stops, like an overnight hotel stay, visit to your long lost cousin, etc, and select the time that you plan on leaving.<br /><br />
-
-                      Images from: <a className="text-orange-500 underline" href="https://undraw.co/">undraw.co</a></p>
-
-                    </div>
-                  </div>
-                </div>
-
-
-                <div className="flex flex-wrap flex-col-reverse sm:flex-row">
-                  <div className="w-full sm:w-1/2 p-6 mt-6">
-                    <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">See The Cities You'll Be Traveling Through</h3>
-                    <p className="text-gray-600 mb-8">Have you ever planned on stopping in a city only to find out its raining? With In The Clear, you are able to see a list of cities you will be traveling through along with the weather and conditions.<br /><br />
-                    
-                    Images from: <a className="text-orange-500 underline" href="https://undraw.co/">undraw.co</a></p>
-                    
-                  </div>
-                  <div className="w-full sm:w-1/2 p-6 mt-6">
-                    <img className="w-full sm:h-64 mx-auto" src={ListSvg}/>
-                  </div>
-                </div>
-                
-                
-                <div className="flex flex-wrap flex-col-reverse sm:flex-row">	
-                  <div className="w-full sm:w-1/2 p-6 mt-6">
-                    <img className="w-5/6 sm:h-64 mx-auto" src={MapSvg} />
-                  </div>
-                  <div className="w-full sm:w-1/2 p-6 mt-6">
-                    <div className="align-middle">
-                      <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">Export to Google Maps</h3>
-                      <p className="text-gray-600 mb-8">Who likes having to input information twice? With In The Clear, you are able to export your trip (stops included) to Google Maps.<br /><br />
-
-                      Images from: <a className="text-orange-500 underline" href="https://undraw.co/">undraw.co</a></p>
-
-                    </div>
-                  </div>
-                </div>
               </div>
             </section>
 
