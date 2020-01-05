@@ -9,14 +9,14 @@ With that being said, we may collect information from and about you, but only th
 
 #### Information we are collecting at this time includes:
 **Authentication**
-1. Email Address
-2. Your Name
+* Email Address
+* Your Name
 
 **Trip History Feature - Coming Soon**
-1. ID linking your Account
-2. Trip Start and End Location
-3. Trip Stops
-4. Date
+* ID linking your Account
+* Trip Start and End Location
+* Trip Stops
+* Date
 
 Your information may be shared with third parties who perform services on our behalf. An example of this is the route you input into In The Clear. Google provides our directions and mapping services, and will use the start and end location to input to give you the best route possible.
 
