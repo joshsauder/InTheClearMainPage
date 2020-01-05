@@ -7,16 +7,7 @@ date: Jan 4th, 2020
 
 With that being said, we may collect information from and about you, but only the information required to provide the service in question. Your data is not sold to any third party companies or advertisers. 
 
-#### Information we are collecting at this time includes:
-**Authentication**
-* Email Address
-* Your Name
-
-**Trip History Feature - Coming Soon**
-* ID linking your Account
-* Trip Start and End Location
-* Trip Stops
-* Date
+Information we are collecting at this time includes your email address, name, ID linking your account, trip Start and end locations, trip stops, and date. We are **not** collecting your current location.
 
 Your information may be shared with third parties who perform services on our behalf. An example of this is the route you input into In The Clear. Google provides our directions and mapping services, and will use the start and end location to input to give you the best route possible.
 

@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Prepare Better",
+        "description": "Driving through snow storms or thunderstorms can be stressful. In The Clear uses Dark Sky's dead accurate weather service so you can be certain the weather conditions you see, will be the conditions you can expect during your travels.",
+        "image": "/images/undraw_road_sign_mfpo.svg"
+    },
+    {
+        "title": "Select Trip Stops",
+        "description": "You are able to select your own trip stops, like an overnight hotel stay, visit to your long lost cousin, etc, and select the time that you plan on leaving.",
+        "image": "/images/undraw_destinations_fpv7.svg"
+    },
+    {
+        "title": "See The Cities You'll Be Traveling Through",
+        "description": "Have you ever planned on stopping in a city only to find out its raining? With In The Clear, you are able to see a list of cities you will be traveling through along with the weather and conditions.",
+        "image": "/images/undraw_note_list_etto.svg"
+    },
+    {
+        "title": "Export to Google Maps",
+        "description": "Who likes having to input information twice? With In The Clear, you are able to export your trip (stops included) to Google Maps.",
+        "image": "/undraw_Map_dark_k9pw.svg"
+    }
+]

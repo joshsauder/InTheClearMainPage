@@ -4,7 +4,6 @@ import PropTypes from "prop-types";
 
 import Footer from "./footer";
 
-import "../css/privacy.css"
 
 
 function Privacy({children}) {
