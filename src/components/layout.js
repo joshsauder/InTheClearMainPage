@@ -3,31 +3,39 @@ import PropTypes from "prop-types";
 import { StaticQuery, graphql } from "gatsby";
 
 import Footer from "./footer"
-
 import InTheClear from "../images/InTheClear.png";
-import DestinationsSvg from "../images/undraw_destinations_fpv7.svg"
-import MapSvg from "../images/undraw_Map_dark_k9pw.svg"
-import ListSvg from "../images/undraw_note_list_etto.svg"
-import SignSvg from "../images/undraw_road_sign_mfpo.svg"
 import FeatureData from "../data/features.json"
 
 function Features(props){
-  return (
+    return (
     <div className="flex flex-wrap flex-col-reverse sm:flex-row">	
-        {props.children}
+        {props.index % 2 === 0 ? 
+        <React.Fragment>
+          <FeatureContent data={props.data} />
+          <FeatureImage image={props.image} />
+        </React.Fragment>
+        :
+        <React.Fragment>
+          <FeatureImage image={props.image} />
+          <FeatureContent data={props.data} />
+        </React.Fragment>
+        }
     </div>
-  )
+    )
 }
 
 function FeatureImage(props){
   return (
     <div className="w-full sm:w-1/2 p-6 mt-6">
-        <img className="w-full sm:h-64 mx-auto" src={props.image}/>
+        <img className="w-full sm:h-64 mx-auto"
+         src={props.image.node.publicURL}
+         />
     </div>
   )
 }
 
 function FeatureContent(props){
+  console.log(props)
   return (
     <div className="w-full sm:w-1/2 p-6 mt-6">
         <div className="align-middle">
@@ -41,7 +49,7 @@ function FeatureContent(props){
   )
 }
 
-function Layout({ children }) {
+function Layout({ children, images }) {
   return (
     <StaticQuery
       query={graphql`
@@ -112,23 +120,14 @@ function Layout({ children }) {
                 <div className="w-full mb-4">	
                   <div className="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
                 </div>
-                       
-                <Features>
-                  <FeatureContent data={FeatureData[0]} />
-                  <FeatureImage image ={SignSvg} />
-                </Features>
-                <Features>
-                  <FeatureImage image ={DestinationsSvg} />
-                  <FeatureContent data={FeatureData[0]} />
-                </Features> 
-                <Features>
-                  <FeatureContent data={FeatureData[2]} />
-                  <FeatureImage image ={ListSvg} />
-                </Features>
-                <Features>
-                  <FeatureImage image ={SignSvg} />
-                  <FeatureContent data={FeatureData[3]} />
-                </Features>       
+
+                {FeatureData.map((feature, index) => {
+                  const image = images.edges.find((image) => {
+                    return image.node.relativePath === feature.image
+                  })
+
+                  return <Features image={image} data={feature} index={index} />
+                })}    
               
               </div>
             </section>
