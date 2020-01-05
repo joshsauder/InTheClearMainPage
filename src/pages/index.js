@@ -4,7 +4,6 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 
 function IndexPage({data}) {
-  console.log(data)
   return (
 
     <Layout images={data.FeatureImgs}>

@@ -30,7 +30,7 @@ function Privacy({children}) {
             }
         `}
         render={data => (
-        <body className="leading-normal tracking-normal gradient">
+        <div className="leading-normal tracking-normal gradient">
             {children}
             <div className="pt-6">
                 <section className="bg-white border-b py-8">
@@ -66,7 +66,7 @@ function Privacy({children}) {
             </svg>
             {/* Footer */}
             <Footer data={data.site.siteMetadata}/>
-        </body>
+        </div>
         )}
         />
     )}

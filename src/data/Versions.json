@@ -1,0 +1,24 @@
+[
+    {
+        "title": "iOS 13 Supprt",
+        "version": "2.1",
+        "description": ["Support for Dark Mode in iOS 13 was added. If you have iOS 13.0+, you will definetly want this update!"]
+    },
+    {
+        "title": "Trip Stops",
+        "version": "2.0",
+        "description": [
+            "You are now able to select the places you are planning on stopping at, and select a time in which you plan on leaving.",
+            "Redesign of the trip time and distance label so it not only looks better, but also tells you more information.",
+            "I also fixed some design issues that caused the app to render awkwardly on the iPhone SE."
+        ]
+    },
+    {
+        "title": "Starting Times and Night Time",
+        "version": "1.2",
+        "description": [
+            "You are now able to select your own starting time, allowing you to better plan ahead.",
+            "Night Time icons were added. If you traveling during the wee hours of the night, the new night time icons along with a darker colored cell will be shown."
+        ]
+    }
+]
