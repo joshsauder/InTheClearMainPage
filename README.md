@@ -2,9 +2,9 @@
 
 Front Facing Web Page for In The Clear. This page will show features, pricing, and latest updates. It will also include the apps privacy policy.
 
-This page is still under contstruction
+Site deployed at: [InTheClearApp.com](http:intheclearapp.com)
 
-Build using [GatsbyJS](https://www.gatsbyjs.org) the [GatsbyJS Tailwind Starter](https://gatsbyjs-starter-tailwindplay.appseed.us/)
+Built using [GatsbyJS](https://www.gatsbyjs.org) the [GatsbyJS Tailwind Starter](https://gatsbyjs-starter-tailwindplay.appseed.us/)
 
 
 
@@ -36,9 +36,6 @@ Use `npm run build` to build your site for production.
 <br />
 
 ## Credits
-* [The original starter](https://gatsbyjs-starter-tailwindplay.appseed.us/)
-* 
+* [The original Gatsby starter](https://gatsbyjs-starter-tailwindplay.appseed.us/)
 * Images - [undraw.co](https://undraw.co/)
-
-<br />
 
