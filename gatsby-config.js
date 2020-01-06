@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `In The Clear`,
-    description: `GatsbyJS Starter styled with Tailwind CSS`,
+    description: `In The Clear`,
     author: `Josh Sauder`,
     app: `https://itunes.apple.com/us/app/in-the-clear/id1458058092?ls=1&#38;mt=8`,
     website: "",
@@ -20,7 +20,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#4dc0b5`,
         display: `minimal-ui`,
-        icon: `src/images/tailwind-icon.png`
+        icon: `src/images/Icon-60.png`
       }
     },
     `gatsby-plugin-postcss`,

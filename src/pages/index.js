@@ -10,7 +10,7 @@ function IndexPage() {
     <Layout>
     
       <SEO
-        title="GatsbyJS Tailwind Starter"
+        title="In The Clear"
         keywords={[`In The Clear`, `Weather`, `Directions`, `Travel`, `iOS`]}
       />
 
