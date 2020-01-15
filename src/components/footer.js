@@ -1,5 +1,4 @@
 import React from "react";
-import InTheClearFill from "../images/InTheClearFill.png";
 import { StaticQuery, graphql } from "gatsby";
 import Img from 'gatsby-image';
 
