@@ -29,6 +29,7 @@ function FeatureImage(props){
   return (
     <div className="w-full sm:w-1/2 p-6 mt-6">
         <img className="w-full sm:h-64 mx-auto"
+         alt="Feature Image"
          src={props.image.node.publicURL}
          />
     </div>
@@ -43,7 +44,7 @@ function FeatureContent(props){
             <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">{props.data.title}</h3>
             <p className="text-gray-600 mb-8">{props.data.description}<br /><br />
 
-            Images from: <a className="text-orange-500 underline" href="https://undraw.co/">undraw.co</a></p>
+            Images from: <a className="text-orange-500 underline" href="https://undraw.co/" rel="noopener">undraw.co</a></p>
 
         </div>
     </div>
@@ -107,7 +108,7 @@ function Layout({ children }) {
             {children}
 
             {/* Hero */}
-            <div className="pt-6">
+            <div className="pt-10 pb-4">
 
               <div className="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
 
@@ -118,16 +119,14 @@ function Layout({ children }) {
                   </p>
 
                   <div className="row">
-                      <a type="submit" target="_blank" href={data.site.siteMetadata.app} className="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 md:my-3 py-4 px-8 shadow-lg">iOS App</a>
-                      <a type="submit" target="_blank" href={data.site.siteMetadata.website} className="lg:ml-2 mx-auto bg-white text-gray-800 font-bold rounded-full my-6 md:my-3 py-4 px-8 shadow-lg opacity-50 cursor-not-allowed">Web App - Coming Soon!</a>
+                      <a type="submit" target="_blank" href={data.site.siteMetadata.app} className="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 md:my-3 py-4 px-8 shadow-lg" rel="noopener">iOS App</a>
+                      <a type="submit" target="_blank" href={data.site.siteMetadata.website} className="lg:ml-2 mx-auto bg-white text-gray-800 font-bold rounded-full my-6 md:my-3 py-4 px-8 shadow-lg opacity-50 cursor-not-allowed" rel="noopener">Web App - Coming Soon!</a>
                   </div>
 
                 </div>
 
-                <div className="lg:w-1/6"/>
-
-                <div className="w-full md:w-3/5 lg:w-2/5 py-6 pb-10 text-center">
-                  <Img className="w-full z-50" sizes={data.file.childImageSharp.sizes} />
+                <div className="w-full md:w-3/5 py-6 pb-10 text-center">
+                  <Img className="w-full md:w-4/5 z-50" sizes={data.file.childImageSharp.sizes} alt="Logo" />
                 </div>
                 
               </div>
@@ -261,8 +260,8 @@ function Layout({ children }) {
               <h3 className="my-4 text-3xl leading-tight">Download In The Clear!</h3>	
 
               <div className="row">
-                <a type="submit" target="_blank" href={data.site.siteMetadata.app} className="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg">iOS App</a>
-                <a type="submit" target="_blank" href={data.site.siteMetadata.website} className="ml-2 mx-auto bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg opacity-50 cursor-not-allowed">Web App - Coming Soon!</a>
+                <a type="submit" target="_blank" href={data.site.siteMetadata.app} className="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg" rel="noopener">iOS App</a>
+                <a type="submit" target="_blank" href={data.site.siteMetadata.website} className="ml-2 mx-auto bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg opacity-50 cursor-not-allowed" rel="noopener">Web App - Coming Soon!</a>
               </div>
 
             </section>
