@@ -45,9 +45,9 @@ module.exports = {
         name: `images`,
       },
     },
-    `gatsby-transformer-remark`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-transformer-remark`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {

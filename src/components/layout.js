@@ -1,9 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { StaticQuery, graphql } from "gatsby";
+import Img from 'gatsby-image';
 
 import Footer from "./footer";
-import InTheClear from "../images/InTheClear.png";
 import FeatureData from "../data/features.json";
 import VersionData from "../data/Versions.json";
 
@@ -66,7 +66,7 @@ function CardContent(props){
   )
 }
 
-function Layout({ children, images }) {
+function Layout({ children }) {
   return (
     <StaticQuery
       query={graphql`
@@ -91,7 +91,14 @@ function Layout({ children, images }) {
                 publicURL
               }
             }
-          } 
+          }
+          file(relativePath: { regex: "/InTheClear.png/" }) {
+            childImageSharp {
+              sizes(maxWidth: 1240 ) {
+                ...GatsbyImageSharpSizes
+              }
+            }
+          }
         }
       `}
       render={data => (
@@ -117,8 +124,10 @@ function Layout({ children, images }) {
 
                 </div>
 
-                <div className="w-full md:w-3/5 py-6 pb-10 text-center">
-                  <img className="w-full md:w-4/5 z-50" src={InTheClear} />
+                <div className="lg:w-1/6"/>
+
+                <div className="w-full md:w-3/5 lg:w-2/5 py-6 pb-10 text-center">
+                  <Img className="w-full z-50" sizes={data.file.childImageSharp.sizes} />
                 </div>
                 
               </div>
