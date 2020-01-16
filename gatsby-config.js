@@ -3,8 +3,8 @@ module.exports = {
     title: `In The Clear`,
     description: `In The Clear`,
     author: `Josh Sauder`,
-    app: `https://itunes.apple.com/us/app/in-the-clear/id1458058092?ls=1&#38;mt=8`,
     website: "",
+    app: `https://itunes.apple.com/us/app/in-the-clear/id1458058092?ls=1&#38;mt=8`,
     linkedin: 'https://www.linkedin.com/in/josh-sauder-5231a1106',
     github: 'https://github.com/joshsauder',
     contact: 'mailto:intheclearapp@gmail.com'
@@ -14,11 +14,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-tailwind`,
-        short_name: `starter`,
+        name: `In-The-Clear`,
+        short_name: `In The Clear`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#4dc0b5`,
+        theme_color: `#4A148C`,
         display: `minimal-ui`,
         icon: `src/images/Icon-60.png`
       }
@@ -56,7 +56,7 @@ module.exports = {
         // Defines where to place the tracking script - `true` in the head and `false` in the body
         head: true,
       },
-    }
-
+    },
+    `gatsby-plugin-offline`
   ]
 };

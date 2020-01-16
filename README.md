@@ -2,9 +2,9 @@
 
 Front Facing Web Page for In The Clear. This page will show features, pricing, and latest updates. It will also include the apps privacy policy.
 
-Site deployed at: [InTheClearApp.com](http:intheclearapp.com)
+Site deployed at: [InTheClearApp.com](https://intheclearapp.com)
 
-Built using [GatsbyJS](https://www.gatsbyjs.org) the [GatsbyJS Tailwind Starter](https://gatsbyjs-starter-tailwindplay.appseed.us/)
+Built using [GatsbyJS](https://www.gatsbyjs.org) and the [GatsbyJS Tailwind Starter](https://gatsbyjs-starter-tailwindplay.appseed.us/)
 
 
 
