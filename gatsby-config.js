@@ -1,9 +1,12 @@
+const siteUrl = "https://intheclearapp.com"
+
 module.exports = {
   siteMetadata: {
     title: `In The Clear`,
     description: `In The Clear`,
     author: `Josh Sauder`,
     website: "",
+    siteUrl: siteUrl,
     app: `https://itunes.apple.com/us/app/in-the-clear/id1458058092?ls=1&#38;mt=8`,
     linkedin: 'https://www.linkedin.com/in/josh-sauder-5231a1106',
     github: 'https://github.com/joshsauder',
@@ -23,6 +26,7 @@ module.exports = {
         icon: `src/images/Icon-60.png`
       }
     },
+    `gatsby-plugin-offline`,
     `gatsby-plugin-postcss`,
     {
       resolve: "gatsby-plugin-purgecss",
@@ -57,6 +61,20 @@ module.exports = {
         head: true,
       },
     },
-    `gatsby-plugin-offline`
+    'gatsby-plugin-sitemap',
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: siteUrl,
+        sitemap: `${siteUrl}/sitemap.xml`,
+        policy: [{ userAgent: '*', allow: '/' }],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-s3`,
+      options: {
+        bucketName: "intheclearapp.com",
+      },
+    },
   ]
 };
