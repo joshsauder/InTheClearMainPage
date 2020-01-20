@@ -1,11 +1,10 @@
 # In The Clear Main Page
 
-Front Facing Web Page for In The Clear. This page will show features, pricing, and latest updates. It will also include the apps privacy policy.
+Front Facing Web Page for In The Clear. This page shows features, pricing, and latest updates. It also includes the apps privacy policy.
 
 Site deployed at: [InTheClearApp.com](https://intheclearapp.com)
 
-Built using [GatsbyJS](https://www.gatsbyjs.org) and the [GatsbyJS Tailwind Starter](https://gatsbyjs-starter-tailwindplay.appseed.us/)
-
+Check out this article I wrote on [Medium](https://medium.com/@joshsauder/building-a-static-site-using-gatsbyjs-bea653bc0e13?source=friends_link&sk=fade9e0264d54288fe4212838bf0672f).
 
 
 ## Get started
