@@ -16,12 +16,7 @@ In The Clear respects the privacy of its users. Please refer to our Privacy Poli
 
 In The Clear grants you a limited, non-exclusive, non-transferable license to access, use, and privately display the Service and the features, information, pictures and other data contained therein only for personal, non-commercial purposes.
 
-<br />
-
 Your permission to use the Service is condition upon your agreement that you will not:
-
-<br />
-
 - Use the Service in a manner that is inconsistent with applicable law.
 - Access, tamper, or use any non-public areas of our Service without authorization.
 - Interfere or attempt to interfere with the proper functioning of the Service.
@@ -35,42 +30,34 @@ In The Clear may offer the opportunity to purchase access to the Service by mean
 
 By selecting a Subscription, you agree to pay the Marketplace Provider a subscription fee on a designated cycle for the Service (the "Subscription Fee"). Subject to the Free Trials and Promotional Offers section below, the first Subscription Fee will be charged to your Payment Method on the date the Marketplace Provider confirms your Subscription purchase. Thereafter, the Subscription Fee and any applicable tax and service fees will be charged to your Payment Method by your Marketplace Provider on a recurring basis in accordance with your designated cycle.
 
-### Billing Cycle
+#### Billing Cycle
 
 The Subscription Fee will be billed at the time you establish your Subscription and on an ongoing, regular basis unless you cancel your Subscription. Please note that billing is processed by your Marketplace Provider and that billing cycles may vary. Note that the timing of your billing may change (i.e. in the event of a problem with your Payment Method, such as an expired credit card). You should confirm your Marketplace Provider's billing policies prior to establishing your Subscription.
 
-### Subscription Price Changes
+#### Subscription Price Changes
 
 Each Marketplace Provider reserves the right to change the price for a Subscription to the Service in its sole discretion and will be responsible for communicating any price changes to you in accordance with the law.
 
-### Updating Payment Method
+#### Updating Payment Method
 
 You may update your Payment Method with your Marketplace Provider at any time by accessing your account with such Marketplace Provider. If at any time the Marketplace Provider is unable to charge your Payment Method for the Subscription Fee due to insufficient funds, expired or invalid account details, or otherwise, you remain responsible for the cost of such Subscription Fee. A change in your Payment Method may result in changes to your prior billing cycle. It is your responsibility to update and maintain the Payment Method associated with your Subscription Fee. In the event your Payment Method is unable to cover the Subscription Fee, each of Marketplace Provider and In The Clear reserve the right to suspend your respective accounts and access to the Service, until such time as the Payment Method has been updated to permit the Marketplace Provider to charge the Subscription Fee.
 
-### Cancellation
+#### Cancellation
 
 You can cancel your Subscription at any time. Please note that you must cancel your Subscription before it renews for a subsequent term in order to avoid being charged for the next term’s Subscription Fee. If you cancel your Subscription, the cancellation will become effective at the end of the then-current term. You will need to cancel your Subscription directly with your Marketplace Provider.
 
-### No Refunds
+#### No Refunds
 
 REFUNDS WILL NOT BE PROVIDED FOR ANY SUBSCRIPTION. IN THE CLEAR DOES NOT PROVIDE CREDIT, REFUNDS, OR PRORATED BILLING FOR SUBSCRIPTIONS THAT ARE CANCELLED MID-TERM. In such a circumstance, you will continue to have access to your Subscription until the end of the term’s billing cycle. Each Marketplace Provider reserves the right to offer refunds, discounts or other consideration in select circumstances at its sole discretion. Please note that each circumstance is unique and election to make such an offer in one instance does not create the obligation to do so in another.
 
-### Promotional Offers
+#### Promotional Offers
 The Service may be made available to you on a promotional offer basis for a limited time. The specific duration of the Promotional Offer will be specified in the applicable offer at sign-up. Promotional Offers are limited to new Service subscribers, unless otherwise specified. Your status as a new subscriber to the Service will be determined by the Marketplace Provider and In The Clear, each in its sole discretion. These Terms apply to any Promotional Offer, unless otherwise specified.
-
-<br/>
 
 At the time of signing up for a Promotional Offer, you must provide the Marketplace Provider with a valid Payment Method in order to use the Service during the Promotional Offer period. Your Payment Method will not be charged by the Marketplace Provider during the Promotional Offer Period, however a preauthorization may be used.
 
-<br/>
-
 UPON THE EXPIRATION OF THE PROMOTIONAL OFFER, THE SUBSCRIPTION FEE FOR THE SERVICE WILL BE CHARGED TO YOUR PAYMENT METHOD, UNLESS YOU TIMELY CANCEL THE TRIAL SUBSCRIPTION. PLEASE NOTE THAT YOU WILL NOT BE NOTIFIED THAT YOUR TRIAL SUBSCRIPTION WILL END OR HAS ENDED.
 
-<br/>
-
 To find additional details about your Promotional Offer, including the date the Promotional Offer ends, please contact your Marketplace Provider directly.
-
-<br/>
 
 No refunds, adjustments or price protection will be applied to your Subscription Fee in the event of a new/subsequent discount or promotional offering after you sign-up for the Service. New customers may take advantage of any "new customer" promotion only once. Requirements for a special promotion will be stated at the time each offer is presented. As a condition of these Terms, you agree not to register multiple times for the same promotional offer using multiple names, addresses, email addresses or other means. Any such action shall constitute a violation of these Terms and may result in the termination of your account.
 
@@ -104,8 +91,6 @@ These Terms of Use, and any other document expressly incorporated herein, set ou
 
 ## Effective Date & Changes
 These Terms of Use are effective **January 24, 2020**. 
-
-<br/>
 
 These Terms of Use may be updated from time to time for any reason. We will notify you of any changes to our Terms of Use by posting the new Terms of Use here. You are advised to consult this Terms of Use regularly for any changes, as continued use is deemed approval of all changes.
 
