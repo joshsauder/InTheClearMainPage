@@ -1,6 +1,7 @@
 ---
-title: Privacy Policy
-date: Jan 4th, 2020
+title: "Privacy Policy"
+date: "Jan 4th, 2020"
+path: "/privacy"
 ---
 
 <br />
