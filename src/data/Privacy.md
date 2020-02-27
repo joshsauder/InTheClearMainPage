@@ -4,6 +4,8 @@ date: "Jan 4th, 2020"
 path: "/privacy"
 ---
 
+<br />
+
 **In The Clear respects your privacy and ensures that information about you remains private.**
 
 With that being said, we may collect information from and about you, but only the information required to provide the service in question. Your data is not sold to any third party companies or advertisers. 
