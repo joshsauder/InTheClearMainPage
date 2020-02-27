@@ -14,9 +14,7 @@ In The Clear respects the privacy of its users. Please refer to our Privacy Poli
 
 ## Use Restrictions
 
-In The Clear grants you a limited, non-exclusive, non-transferable license to access, use, and privately display the Service and the features, information, pictures and other data contained therein only for personal, non-commercial purposes.
-
-Your permission to use the Service is condition upon your agreement that you will not:
+In The Clear grants you a limited, non-exclusive, non-transferable license to access, use, and privately display the Service and the features, information, pictures and other data contained therein only for personal non-commercial purposes. Your permission to use the Service is condition upon your agreement that you will not:
 - Use the Service in a manner that is inconsistent with applicable law.
 - Access, tamper, or use any non-public areas of our Service without authorization.
 - Interfere or attempt to interfere with the proper functioning of the Service.

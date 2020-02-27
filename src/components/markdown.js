@@ -3,12 +3,15 @@ import { graphql } from "gatsby";
 import PropTypes from "prop-types";
 
 import Footer from "./footer";
+import SEO from "./seo";
 
-function Privacy({ children, data }) {
-  console.log(data)
+function Markdown({ data }) {
   return (
     <div className="leading-normal tracking-normal gradient">
-      {children}
+      <SEO
+        title={data.markdownRemark.frontmatter.title}
+        keywords={[`In The Clear`, `Weather`, `Directions`, `Travel`, `iOS`]}
+      />
       <div className="pt-6">
         <section className="bg-white border-b py-8">
           <div className="container max-w-5xl mx-auto m-8">
@@ -63,9 +66,8 @@ function Privacy({ children, data }) {
   );
 }
 
-Privacy.propTypes = {
-  children: PropTypes.node.isRequired,
-  title: PropTypes.node.isRequired
+Markdown.propTypes = {
+  data: PropTypes.node.isRequired
 };
 
 export const query = graphql`
@@ -89,4 +91,4 @@ export const query = graphql`
   }
 `
 
-export default Privacy;
+export default Markdown;
