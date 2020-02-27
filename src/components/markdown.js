@@ -67,7 +67,7 @@ function Markdown({ data }) {
 }
 
 Markdown.propTypes = {
-  data: PropTypes.node.isRequired
+  data: PropTypes.object.isRequired
 };
 
 export const query = graphql`
