@@ -120,7 +120,7 @@ function Layout({ children }) {
 
                   <div className="row">
                       <a type="submit" target="_blank" href={data.site.siteMetadata.app} className="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 md:my-3 py-4 px-8 shadow-lg" rel="noopener">iOS App</a>
-                      <a type="submit" target="_blank" href={data.site.siteMetadata.website} className="lg:ml-2 mx-auto bg-white text-gray-800 font-bold rounded-full my-6 md:my-3 py-4 px-8 shadow-lg opacity-50 cursor-not-allowed" rel="noopener">Web App - Coming Soon!</a>
+                      <a type="submit" target="_blank" href={data.site.siteMetadata.website} className="ml-2 mx-auto bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg" rel="noopener">Web App</a>
                   </div>
 
                 </div>
@@ -262,7 +262,7 @@ function Layout({ children }) {
 
               <div className="row">
                 <a type="submit" target="_blank" href={data.site.siteMetadata.app} className="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg" rel="noopener">iOS App</a>
-                <a type="submit" target="_blank" href={data.site.siteMetadata.website} className="ml-2 mx-auto bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg opacity-50 cursor-not-allowed" rel="noopener">Web App - Coming Soon!</a>
+                <a type="submit" target="_blank" href={data.site.siteMetadata.website} className="ml-2 mx-auto bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg" rel="noopener">Web App</a>
               </div>
 
             </section>

@@ -5,7 +5,7 @@ module.exports = {
     title: `In The Clear`,
     description: `In The Clear`,
     author: `Josh Sauder`,
-    website: "",
+    website: "https://app.intheclearapp.com",
     siteUrl: siteUrl,
     app: `https://itunes.apple.com/us/app/in-the-clear/id1458058092?ls=1&#38;mt=8`,
     linkedin: 'https://www.linkedin.com/in/josh-sauder-5231a1106',
