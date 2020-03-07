@@ -35,6 +35,6 @@ Use `npm run build` to build your site for production.
 <br />
 
 ## Credits
-* [The original Gatsby starter](https://gatsbyjs-starter-tailwindplay.appseed.us/)
+* Web Framework - [Gatsby](https://www.gatsbyjs.org)
 * Images - [undraw.co](https://undraw.co/)
 
