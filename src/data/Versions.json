@@ -3,7 +3,7 @@
         "title": "Web App",
         "version": "3.0",
         "description": [
-            "I'm proud to announce that In The Clear now has a web app! It has all the features of the iOS app, and best of all, it's at no extra cost. Head on over to https://app.intheclearapp.com to check it out!",
+            "I'm proud to announce that In The Clear now has a web app! It has all the features of the iOS app, and best of all, it's at no extra cost.",
             "To go along with the new web app, we have a new authentication page. This will allow you to get an ad-free experience on the web app, and more soon to be released features!",
             "I also squashed just enough bugs for me to list \"bug fixes\" in the release notes."
         ]
