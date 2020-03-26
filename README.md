@@ -1,5 +1,7 @@
 # In The Clear Main Page
 
+[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+
 Front Facing Web Page for In The Clear. This page shows features, pricing, and latest updates. It also includes the apps privacy policy.
 
 Site deployed at: [InTheClearApp.com](https://intheclearapp.com)
