@@ -29,7 +29,7 @@ function FeatureImage(props){
   return (
     <div className="w-full sm:w-1/2 p-6 mt-6">
         <img className="w-full sm:h-64 mx-auto"
-         alt="Feature Image"
+         alt="In The Clear Web Feature"
          src={props.image.node.publicURL}
          />
     </div>
@@ -119,8 +119,8 @@ function Layout({ children }) {
                   </p>
 
                   <div className="row">
-                      <a type="submit" target="_blank" href={data.site.siteMetadata.app} className="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 md:my-3 py-4 px-8 shadow-lg" rel="noopener">iOS App</a>
-                      <a type="submit" target="_blank" href={data.site.siteMetadata.website} className="ml-2 mx-auto bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg" rel="noopener">Web App</a>
+                      <a type="submit" target="_blank" rel="noreferrer" href={data.site.siteMetadata.app} className="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 md:my-3 py-4 px-8 shadow-lg">iOS App</a>
+                      <a type="submit" target="_blank" rel="noreferrer" href={data.site.siteMetadata.website} className="ml-2 mx-auto bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg">Web App</a>
                   </div>
 
                 </div>
@@ -261,8 +261,8 @@ function Layout({ children }) {
               <h3 className="my-4 text-3xl leading-tight">Download In The Clear!</h3>	
 
               <div className="row">
-                <a type="submit" target="_blank" href={data.site.siteMetadata.app} className="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg" rel="noopener">iOS App</a>
-                <a type="submit" target="_blank" href={data.site.siteMetadata.website} className="ml-2 mx-auto bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg" rel="noopener">Web App</a>
+                <a type="submit" target="_blank" rel="noreferrer" href={data.site.siteMetadata.app} className="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg">iOS App</a>
+                <a type="submit" target="_blank" rel="noreferrer" href={data.site.siteMetadata.website} className="ml-2 mx-auto bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg">Web App</a>
               </div>
 
             </section>
