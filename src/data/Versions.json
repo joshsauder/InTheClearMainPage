@@ -1,25 +1,30 @@
 [
     {
-        "title": "Web App",
-        "version": "3.0",
+        "title": "Apple Maps Support",
+        "version": "3.2",
         "description": [
-            "I'm proud to announce that In The Clear now has a web app! It has all the features of the iOS app, and best of all, it's at no extra cost.",
-            "To go along with the new web app, we have a new authentication page. This will allow you to get an ad-free experience on the web app, and more soon to be released features!",
-            "I also squashed just enough bugs for me to list \"bug fixes\" in the release notes."
+            "Added the option to open the route in Apple Maps.",
+            "Various UI/UX enhancements and bug fixes that will allow for a much better user experience."
         ]
     },
     {
-        "title": "iOS 13 Support",
-        "version": "2.1",
-        "description": ["Support for Dark Mode in iOS 13 was added. If you have iOS 13.0+, you will definetly want this update!"]
+        "title": "Premium Features",
+        "version": "3.1",
+        "description": [
+            "Planning a trip and want to quickly access that trip information at a later date? You can now do that with our new History feature that allows you to select a trip you searched for previously.",
+            "We added a new profile screen that will show your favorite destination along with other account information.",
+            "We have a new premium tear for all of you In The Clear power users!",
+            "I also squashed just enough bugs for me to list \"bug fixes\" in the release notes."
+            
+        ]
     },
     {
-        "title": "Trip Stops",
-        "version": "2.0",
+        "title": "Profile Features",
+        "version": "3.0",
         "description": [
-            "You are now able to select the places you are planning on stopping at, and select a time in which you plan on leaving.",
-            "Redesign of the trip time and distance label so it not only looks better, but also tells you more information.",
-            "I also fixed some design issues that caused the app to render awkwardly on the iPhone SE."
+            "We have a new authentication page. This will allow you to get an ad-free experience on the web app, and more soon to be released features!",
+            "(Deprecated) I'm proud to announce that In The Clear now has a web app! It has all the features of the iOS app, and best of all, it's at no extra cost.",
+            "I also squashed just enough bugs for me to list \"bug fixes\" in the release notes."
         ]
     }
 ]
