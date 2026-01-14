@@ -37,7 +37,7 @@
     "analyze:lint": "eslint --ext .jsx --ext .js .",
     "analyze:prettier": "prettier --list-different '**/*.{js,css,md,json}'",
     "analyze": "npm run analyze:lint && npm run analyze:prettier",
-    "build": "yarn run clean && gatsby build",
+    "build": "npm run clean && gatsby build",
     "deploy": "gatsby-plugin-s3 deploy",
     "develop": "gatsby develop",
     "fix:lint": "eslint --ext .jsx --ext .js . --fix",
@@ -45,7 +45,8 @@
     "fix": "npm run fix:lint && npm run fix:prettier",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
+    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\"",
+    "clean": "rimraf build dist .cache"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.18",

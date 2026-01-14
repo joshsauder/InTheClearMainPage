@@ -1,6 +1,7 @@
 const siteUrl = "https://intheclearapp.com"
 
 module.exports = {
+  trailingSlash: "ignore",
   siteMetadata: {
     title: `In The Clear`,
     description: `In The Clear`,
