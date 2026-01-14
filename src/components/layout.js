@@ -95,8 +95,8 @@ function Layout({ children }) {
           }
           file(relativePath: { regex: "/InTheClear.png/" }) {
             childImageSharp {
-              sizes(maxWidth: 1240 ) {
-                ...GatsbyImageSharpSizes
+              fluid(maxWidth: 1240 ) {
+                ...GatsbyImageSharpFluid
               }
             }
           }
@@ -108,11 +108,11 @@ function Layout({ children }) {
             {children}
 
             {/* Hero */}
-            <div className="pt-10 pb-4">
+            <div className="pt-10 pb-4 relative z-50">
 
               <div className="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
 
-                <div className="flex flex-col w-full md:w-2/5 justify-center text-center md:text-left">
+                <div className="flex flex-col w-full md:w-1/2 justify-center text-center md:text-left">
                   <h1 className="my-4 text-5xl font-bold leading-tight">In The Clear</h1>
                   <p className="leading-normal text-2xl mb-8">
                     {data.site.siteMetadata.title} - an app designed to alleviate the pain of unexpectadly having to travel through unfavorable weather conditions
@@ -125,7 +125,7 @@ function Layout({ children }) {
                 </div>
 
 
-                <div className="w-full md:w-3/5 py-6 pb-10 text-center">
+                <div className="w-full md:w-1/2 py-6 pb-10 text-center">
                   <Img className="w-full md:w-4/5 z-50" sizes={data.file.childImageSharp.sizes} alt="Logo" />
                 </div>
                 

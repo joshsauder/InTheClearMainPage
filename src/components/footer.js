@@ -10,8 +10,8 @@ function Footer(props) {
                 query footerQuery {
                     file(relativePath: { regex: "/InTheClearFill.png/" }) {
                         childImageSharp {
-                        sizes(maxWidth: 1240 ) {
-                            ...GatsbyImageSharpSizes
+                        fluid(maxWidth: 1240 ) {
+                            ...GatsbyImageSharpFluid
                         }
                         }
                     }
