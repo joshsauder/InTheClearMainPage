@@ -1,5 +1,13 @@
 [
     {
+        "title": "Free Tier with Enhanced Premium Features",
+        "version": "4.0",
+        "description": [
+            "With this newest update, we are proud to announce the addition of a free tier. You can now use this app and plan a trip for free!",
+            "We've also added more premium tiers so you can better select what you need! We've also updated the app to support iOS 26 and a dark mode."]
+
+    },
+    {
         "title": "Apple Maps Support",
         "version": "3.2",
         "description": [
@@ -8,12 +16,12 @@
         ]
     },
     {
-        "title": "Premium Features",
+        "title": "Premium Features and Trip History",
         "version": "3.1",
         "description": [
             "Planning a trip and want to quickly access that trip information at a later date? You can now do that with our new History feature that allows you to select a trip you searched for previously.",
             "We added a new profile screen that will show your favorite destination along with other account information.",
-            "We have a new premium tear for all of you In The Clear power users!",
+            "We have a new premium tier for all of you In The Clear power users!",
             "I also squashed just enough bugs for me to list \"bug fixes\" in the release notes."
             
         ]
