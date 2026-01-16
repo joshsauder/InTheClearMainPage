@@ -195,33 +195,49 @@ function Layout({ children }) {
                   <div className="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
                 </div>
                 
-                <div className="flex flex-col sm:flex-row justify-center pt-12 my-12 sm:my-4">               
+                <div className="flex flex-col sm:flex-row justify-center pt-12 my-12 sm:my-4">
+
                   <div className="flex flex-col md:w-5/6 lg:w-1/3 lg:mr-4 md:mr-4 rounded-lg bg-white mt-4 sm:-mt-6 shadow-lg z-10">
                     <div className="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-                      <div className="w-full p-8 text-3xl font-bold text-center">iOS App + Web</div>
+                      <div className="w-full p-8 text-3xl font-bold text-center">Premium</div>
                       <div className="h-1 w-full gradient my-0 py-0 rounded-t"></div>
                       <ul className="w-full text-center text-base font-bold">
                         <li className="border-b py-4">Plan your trips from your iPhone or iPad</li>
-                        <li className="border-b py-4">Plan your trips from the Web</li>
-                        <li className="border-b py-4">Ad-free Web App Experience</li>
+                        <li className="border-b py-4">Ad-free Experience</li>
+                        <li className="border-b py-4">Add stops along the way</li>
                       </ul>					
                     </div>
                     <div className="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-                      <div className="w-full pt-6 text-4xl font-bold text-center">$1.99</div>
+                      <div className="w-full pt-6 text-2xl font-bold text-center">$1.99 per month</div>
+                      <div className="w-full pt-6 text-2xl font-bold text-center">$10 per year</div>
+                    </div>
+                  </div>
+
+                  <div className="flex flex-col md:w-5/6 lg:w-1/3 lg:mr-4 md:mr-4 rounded-lg bg-white mt-4 sm:-mt-6 shadow-lg z-10">
+                    <div className="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
+                      <div className="w-full p-8 text-3xl font-bold text-center">Ad-Free</div>
+                      <div className="h-1 w-full gradient my-0 py-0 rounded-t"></div>
+                      <ul className="w-full text-center text-base font-bold">
+                        <li className="border-b py-4">Plan your trips from your iPhone or iPad</li>
+                        <li className="border-b py-4">Ad-free Experience</li>
+                      </ul>					
+                    </div>
+                    <div className="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
+                      <div className="w-full pt-6 text-2xl font-bold text-center">$0.99 per month</div>
                     </div>
                   </div>
                   
                   <div className="flex flex-col md:w-5/6 lg:w-1/3 rounded-lg lg:ml-4 md:ml-4 bg-white mt-4 sm:-mt-6 shadow-lg z-10">
                     <div className="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-                      <div className="w-full p-8 text-3xl font-bold text-center">Web</div>
+                      <div className="w-full p-8 text-3xl font-bold text-center">Basic</div>
                       <div className="h-1 w-full gradient my-0 py-0 rounded-t"></div>
                       <ul className="w-full text-center text-base font-bold">
-                        <li className="border-b py-4">Plan your trips from the Web</li>
+                        <li className="border-b py-4">Plan your trips from your iPhone or iPad</li>
                         <li className="border-b py-4">Ads will be shown</li>
                       </ul>
                     </div>
                     <div className="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-                      <div className="w-full pt-6 text-4xl font-bold text-center">Free</div>
+                      <div className="w-full pt-6 text-2xl font-bold text-center">Free</div>
                     </div>
                   </div>
 
