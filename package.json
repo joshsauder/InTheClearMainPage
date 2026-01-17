@@ -7,6 +7,7 @@
     "ftp-deploy": "^2.4.7",
     "gatsby-image": "^3.11.0",
     "gatsby-plugin-google-analytics": "^5.15.0",
+    "gatsby-plugin-google-gtag": "^5.15.0",
     "gatsby-plugin-manifest": "^5.15.0",
     "gatsby-plugin-offline": "^6.15.0",
     "gatsby-plugin-postcss": "^6.15.0",

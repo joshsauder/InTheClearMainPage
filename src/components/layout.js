@@ -126,7 +126,7 @@ function Layout({ children }) {
 
 
                 <div className="w-full md:w-1/2 py-6 pb-10 text-center">
-                  <Img className="w-full md:w-4/5 z-50" sizes={data.file.childImageSharp.sizes} alt="Logo" />
+                  <Img className="w-full md:w-4/5 z-50" fluid={data.file.childImageSharp.fluid} alt="Logo" />
                 </div>
                 
               </div>

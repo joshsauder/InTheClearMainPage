@@ -25,7 +25,7 @@ function Footer(props) {
                 <div className="w-full flex flex-col md:flex-row py-6">             
                     <div className="flex-1 mb-6">           
                         <a className="text-orange-600 no-underline hover:no-underline font-bold text-2xl lg:text-4xl"  href="/"> 
-                            <Img className="w-full md:w-4/5 z-50" sizes={data.file.childImageSharp.sizes} alt="Logo Fill"/>
+                            <Img className="w-full md:w-4/5 z-50" fluid={data.file.childImageSharp.fluid} alt="Logo Fill"/>
                         </a>
                     </div>    
                     <div className="flex-1">
